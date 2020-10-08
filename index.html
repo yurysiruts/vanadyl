@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+
 </head>
 <body>
     <nav class="navbar">
@@ -15,25 +18,24 @@
             </h1>
             <ul class="navbar_items">
                 <li class="navbar_item">Home</li>
-
-                <li class="navbar_item">
-                    <a class="navbar_item_x" href="#">Pages</a>
+                <li class="navbar_item">Pages
                     <ul class="submenu">
-                        <li class="dropdown"><a href="#">About Us</a>
-                            <ul class="dropdown-submenu">
-                                <li class="sub-dropdown">Case Study</li>
-                                <li class="sub-dropdown">Resources</li>
-                                <li class="sub-dropdown">404</li>
-                                <li class="sub-dropdown">Product</li>
-                            </ul>
+                        <li class="">About Us 
+                            <div class="secondary-menu">
+                                <div class="secondary-menu-item">Case Study</div>
+                                <div class="secondary-menu-item">Resources</div>
+                                <div class="secondary-menu-item">Services</div>
+                                <div class="secondary-menu-item">Privacy Police</div>
+                                <div class="secondary-menu-item">Search Results</div>
+                            </div> 
                         </li>
-                        <li class="dropdown"><a href="#">Case Study</a></li>
-                        <li class="dropdown"><a href="#">Resources</a></li>
-                        <li class="dropdown"><a href="#">Services</a></li>
-                        <li class="dropdown"><a href="#">Product</a></li>
-                        <li class="dropdown"><a href="#">404</a></li>
-                        <li class="dropdown"><a href="#">Privacy Policy</a></li>
-                        <li class="dropdown"><a href="#">Search Results</a></li>
+                        <li class="">Case Study</li>
+                        <li class="">Resources</li>
+                        <li class="">Services</li>
+                        <li class="">Product</li>
+                        <li class="">404</li>
+                        <li class="">Privacy Policy</li>
+                        <li class="">Search Results</li>
                     </ul>
                 </li>
 
@@ -42,6 +44,37 @@
                 <li class="navbar_item">Contact</li>
                 <li class="navbar_item navbar_item_search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg></li>
             </ul>
+        </div>
+    </nav>
+    <nav class="mobile-nav">
+        <div class="mobile-nav-container">
+            <div class="mobile-nav-container-left">
+                <img src="assets/logo_bbc.png" alt="logo">
+            </div>
+            <div class="mobile-nav-container-right">
+
+                <div class="mobile-nav-container-right-button">
+                    <div class="mobile-nav-container-right-button-z"></div>
+                    <div class="mobile-nav-container-right-button-z"></div>
+                    <div class="mobile-nav-container-right-button-z"></div>
+                    
+                    <ul class="mobile-nav-items">
+                        <li class="mobile-nav-item">Home</li>
+                        <li class="mobile-nav-item">Pages
+                            <div class="mobile-secondary-menu">
+                                <div class="mobile-secondary-menu-item">Page I</div>
+                                <div class="mobile-secondary-menu-item">Page II</div>
+                                <div class="mobile-secondary-menu-item">Page III</div>
+                            </div> 
+                        </li>
+                        <li class="mobile-nav-item">Landing&Mailing</li>
+                        <li class="mobile-nav-item">Blog</li>
+                        <li class="mobile-nav-item">Contact</li>
+                    </ul>
+
+                </div>
+
+            </div>
         </div>
     </nav>
 
@@ -61,6 +94,12 @@
         <div class="cards-text">
             <h2>Lorem ipsum dolor sit amet,<br> consectetur.</h2>
             <p>Meacenas finibus accumsan eros vel elementum. Nam bibendum a ante in<br> ornare.
+                Aliquem non sodales risus.
+            </p>
+        </div>
+        <div class="cards-text-mobile">
+            <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
+            <p>Meacenas finibus accumsan eros vel elementum. Nam bibendum a ante in ornare.
                 Aliquem non sodales risus.
             </p>
         </div>
@@ -126,6 +165,13 @@
                 in veritatis reprehenderit.</div>
             <div class="info-container-text-2"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span><br>
                 Perspiciatis accusantium eius in omnis reiciendis sequi. In.</div>
+                
+            <div class="info-container-title-mob">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="info-container-text-mob">Lorem ipsum dolor sit amet consectetur, adipisicing 
+                elit. Similique dolorum blanditiis molestias et modi nobis eum iste in veritatis reprehenderit. 
+                in veritatis reprehenderit.</div>
+            <div class="info-container-text-2-mob"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                Perspiciatis accusantium eius in omnis reiciendis sequi. In.</div>
         </div>
     </section>
 
@@ -144,23 +190,42 @@
     </section>
 
     <section class="company">
-        <div class="company-container">
+        <div class="company-container company-pc">
             <img src="assets/logo-4.4-kopia.png" alt="company-logo">
             <img src="assets/logo-4.4-kopia.png" alt="company-logo">
             <img src="assets/logo-4.4-kopia.png" alt="company-logo">
             <img src="assets/logo-4.4-kopia.png" alt="company-logo">
+        </div>
+        <div class="company-container company-mob">
+            <div class="w3-content" style="max-width:800px">
+                <img class="mySlides" src="assets/logo-4.4-kopia-mob.png"  style="width:100%; max-width: 342px;" alt="company-logo">
+                <img class="mySlides" src="assets/logo-4.4-kopia-mob.png"  style="width:100%; max-width: 342px;" alt="company-logo">
+                <img class="mySlides" src="assets/logo-4.4-kopia-mob.png"  style="width:100%; max-width: 342px;" alt="company-logo">
+            </div>
+              
+            <div class="w3-center">
+                <button class="w3-button demo" onclick="currentDiv(1)"></button> 
+                <button class="w3-button demo" onclick="currentDiv(2)"></button> 
+                <button class="w3-button demo" onclick="currentDiv(3)"></button> 
+            </div>
         </div>
     </section>
 
     <section class="footer">
         <div class="footer-container">
             <div class="footer-container-left">
-                <div class="footer-container-item">
+                <div class="footer-container-item footer-container-item-pc">
                 <img src="assets/logo.png" alt="LOGO-img">
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Maiores<br> sit perferendis fuga aperiam 
                     fugit ducimus pariatur dolore eum tempore, <br>repellendus ullam dolor obcaecati, delectus veniam
                     5doloribus!</p>
                 </div>
+                <div class="footer-container-item footer-container-item-mob">
+                    <img src="assets/logo.png" alt="LOGO-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sit perferendis fuga aperiam 
+                        fugit ducimus pariatur dolore eum tempore, repellendus ullam dolor obcaecati, delectus veniam
+                        5doloribus!</p>
+                    </div>
             </div>
             <div class="footer-container-right">
                 <div class="footer-container-right-item-1">
@@ -197,5 +262,6 @@
     </section>
 
     <script src="main.js"></script>
+    
 </body>
 </html>
